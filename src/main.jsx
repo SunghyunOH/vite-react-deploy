@@ -8,15 +8,15 @@ import Contact from './pages/Contact.jsx'
 
 const Router = createBrowserRouter([
   {
-    path: "/vite-react-diploy/",
+    path: "/vite-react-deploy/",
     element: <App />,
     children: [
       {
-        path: "/vite-react-diploy/",
+        path: "/vite-react-deploy/",
         element: <Home />,
       },
       {
-        path: "/vite-react-diploy/contact",
+        path: "/vite-react-deploy/contact",
         element: <Contact />,
       },
     ]
